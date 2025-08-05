@@ -1,0 +1,4 @@
+name = "docs.rettend.me"
+main = "src/index.ts"
+compatibility_date = "2025-04-01"
+routes = [ { pattern = "docs.rettend.me", custom_domain = true } ]
