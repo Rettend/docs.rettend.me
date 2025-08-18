@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "docs.rettend.me",
+      "dependencies": {
+        "cf-path-router": "^0.1.0",
+      },
       "devDependencies": {
         "@antfu/eslint-config": "^5.1.0",
         "@cloudflare/workers-types": "^4.20250805.0",
@@ -164,6 +167,8 @@
     "caniuse-lite": ["caniuse-lite@1.0.30001731", "", {}, "sha512-lDdp2/wrOmTRWuoB5DpfNkC0rJDU8DqRa6nYL6HK6sytw70QMopt/NIc/9SM7ylItlBWfACXk0tEn37UWM/+mg=="],
 
     "ccount": ["ccount@2.0.1", "", {}, "sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg=="],
+
+    "cf-path-router": ["cf-path-router@0.1.0", "", {}, "sha512-atmwQhdS6b+Xqocdqjv14LXuY0/rj+mIdfnKFSlM4gI3Zi3fPz2XFoxAesP5VBNml7q0pUU014hEbzgjwKMQ5Q=="],
 
     "chalk": ["chalk@4.1.2", "", { "dependencies": { "ansi-styles": "^4.1.0", "supports-color": "^7.1.0" } }, "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="],
 

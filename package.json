@@ -5,10 +5,14 @@
   "packageManager": "bun@1.2.19",
   "module": "src/index.ts",
   "scripts": {
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "dev": "wrangler dev"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "cf-path-router": "^0.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.1.0",
